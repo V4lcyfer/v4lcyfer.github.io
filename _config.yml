@@ -28,17 +28,20 @@ url: "https://v4lcyfer.github.io"
 github:
   username: v4lcyfer# change to your github username
 
-twitter:
-  username: twitter_username # change to your twitter username
+#twitter:
+#  username: twitter_username # change to your twitter username
+
+Linkedin:
+  username: john-jairo-rimarachin-sanchez-35aa8074
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: v4lcyfer
-  Linkedin: https://www.linkedin.com/in/john-jairo-rimarachin-sanchez-35aa8074/ # change to your email address
+  email: example@domain.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
+    # https://twitter.com/username # change to your twitter homepage
     - https://github.com/V4lcyfer # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
