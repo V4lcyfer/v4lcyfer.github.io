@@ -3,7 +3,7 @@ title: CTF-PinguPing
 description: Guia en texto del CTF PinguPing de The hacker Labs, incluye enumeración de puertos, tecnicas de recopilación de información, acceso y escalamiento de privilegios.
 date: 2024-06-09 22:00 +/-TTTT
 categories: [ES-CTF, The Hacker Labs]
-tags: [hacking, tehhackerlabs, ctf, es, avanzado]     # TAG names should always be lowercase
+tags: [hacking, tehhackerlabs, ctf, es, Avanzado]     # TAG names should always be lowercase
 pin: true
 math: true
 mermaid: true
@@ -12,7 +12,10 @@ image:
   lqip: data:image/webp;base64,UklGRpoAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDIAAAARL0AmbZurmr57yyIiqE8oiG0bejIYEQTgqiDA9vqnsUSI6H+oAERp2HZ65qP/VIAWAFZQOCBCAAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
 ---
 
-Guia en texto del CTF Pinguping de The hacker Labs, incluye enumeración de puertos, tecnicas de recopilación de información, metodos de acceso y escalamiento de privilegios.
+Guía en Texto del CTF Pinguping de The Hacker Labs
+esta guía incluye la enumeración de puertos, técnicas de recopilación de información, métodos de acceso, y escalamiento de privilegios.
+
+
 
 <!-- Indice -->
 **Índice**
@@ -25,7 +28,7 @@ Guia en texto del CTF Pinguping de The hacker Labs, incluye enumeración de puer
 
 2.2[Reconocimiento de vulnerabilidades con Nmap](#22-reconocimiento-de-vulnerabilidades-con-nmap)
 
-2.3[Visualización de sisitio web puerto 80](#23-visualizacíón-de-sitio-web-puerto-80)
+2.3[Visualización de sitio web puerto 80](#23-visualizacíón-de-sitio-web-puerto-80)
 
 2.4[Revisión del contenido del puerto 5000](#24-revisión-del-contenido-del-puerto-5000)
 
@@ -67,7 +70,7 @@ Después de descargar la Máquina Virtual, te muestra un archivo .ova el cual, a
 la máquina virtual en VMware o VirtualBox y automáticamente se asigna una dirección
 IP de la red en la que estás trabajando.
 
-| Vm name       | Ip Adress     | Creators  |Nivel |
+| Vm name       | Ip Adress     | Creators  |Level |
 | :-----------: |:-------------:| :--------:|:--------:|
 | PinguPing       | `192.168.1.14`  | The Hacker Labs     |Avanzado|
 
@@ -75,7 +78,7 @@ IP de la red en la que estás trabajando.
 
 ### 2.1 Conectividad
 
-Lo primero es validar si tenemos llegada al escenario para ello validamos la conectividad hacia el objetivo desde nuestra máquina virtual con la que realizaremos las pruebas y con esto podremos iniciar las pruebas de Ethical Hacking.
+Lo primero que debemos hacer es verificar si tenemos acceso al escenario. Para ello, validamos la conectividad hacia el objetivo desde nuestra máquina virtual. Una vez confirmado el acceso, podemos iniciar las pruebas de ethical hacking.
 
 ```bash
 ┌──(root㉿V4lcyfer)-[/home/kali]

@@ -3,7 +3,7 @@ title: CTF-PapaFrita
 description: Guia en texto del CTF PapaFrita de The hacker Labs, incluye enumeración de puertos, tecnicas de recopilación de información, acceso y escalamiento de privilegios.
 date: 2024-05-18 22:57 +/-TTTT
 categories: [ES-CTF, The Hacker Labs]
-tags: [hacking, tehhackerlabs, ctf, es]     # TAG names should always be lowercase
+tags: [hacking, tehhackerlabs, ctf, es, Principiante]     # TAG names should always be lowercase
 pin: true
 math: true
 mermaid: true
@@ -12,7 +12,7 @@ image:
   lqip: data:image/webp;base64,UklGRpoAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDIAAAARL0AmbZurmr57yyIiqE8oiG0bejIYEQTgqiDA9vqnsUSI6H+oAERp2HZ65qP/VIAWAFZQOCBCAAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
 ---
 
-Guia en texto del CTF Papa Frita de The hacker Labs, incluye enumeración de puertos, tecnicas de recopilación de información, metodos de acceso y escalamiento de privilegios.
+Guia en texto del CTF Papa Frita de The hacker Labs, incluye enumeración de puertos, técnicas de recopilación de información, métodos de acceso y escalamiento de privilegios.
 
 <!-- Indice -->
 **Índice**
@@ -60,9 +60,9 @@ Después de descargar la Máquina Virtual, te muestra un archivo .ova el cual, a
 la máquina virtual en VMware o VirtualBox y automáticamente se asigna una dirección
 IP de la red en la que estás trabajando.
 
-| Vm name       | Ip Adress     | Creators  |
+| Vm name       | Ip Adress     | Creators  | Level  |
 | :-----------: |:-------------:| :--------:|
-| PapaFrita       | `192.168.137.105`  | The Hacker Labs     |
+| PapaFrita        | `192.168.137.105`  | The Hacker Labs     | Principiante     |
 
 ## 2. Reconocimiento
 
