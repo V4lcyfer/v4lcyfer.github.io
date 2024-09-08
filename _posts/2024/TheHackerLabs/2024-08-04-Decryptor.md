@@ -18,8 +18,6 @@ Esta guía incluye la enumeración de puertos, técnicas de recopilación de inf
 <!---Indice-->
 **Índice**
 
-**Índice**
-
 1.[Decryptor](#1-decryptor)
 
 1.1 [Detalles de la máquina virtual](#11-detalles-de-la-máquina-virtual)
@@ -59,7 +57,7 @@ Esta guía incluye la enumeración de puertos, técnicas de recopilación de inf
 
 ### 1.1 Detalles de la máquina virtual
 
-**Decryptor** es una máquina virtual proporcionada por la plataforma web de CTFs ***The Hacker Labs**. Agradecemos su contribución y apoyo a la comunidad, lo cual nos permite seguir creciendo y aprendiendo sobre este apasionante mundo de la ciberseguridad. **Visitalos:** [The Hacker Labs](https://thehackerslabs.com "the hacker labs")
+**Decryptor** es una máquina virtual proporcionada por la plataforma web de CTFs **The Hacker Labs**. Agradecemos su contribución y apoyo a la comunidad, lo cual nos permite seguir creciendo y aprendiendo sobre este apasionante mundo de la ciberseguridad. **Visitalos:** [The Hacker Labs](https://thehackerslabs.com "the hacker labs")
 
 ![imagen.](https://github.com/V4lcyfer/blog-images/blob/main/HackerLabs/Decryptor/1.jpg?raw=true "decryptor logo")
 
