@@ -3,7 +3,7 @@ title: CTF-PapaFrita
 description: Guia en texto del CTF PapaFrita de The hacker Labs, incluye enumeración de puertos, tecnicas de recopilación de información, acceso y escalamiento de privilegios.
 date: 2024-05-18 22:57 +/-TTTT
 categories: [ES-CTF, The Hacker Labs]
-tags: [hacking, tehhackerlabs, ctf, es, Principiante]     # TAG names should always be lowercase
+tags: [hacking, tehhackerlabs, ctf, es, Principiante, ctf2024]     # TAG names should always be lowercase
 pin: true
 math: true
 mermaid: true

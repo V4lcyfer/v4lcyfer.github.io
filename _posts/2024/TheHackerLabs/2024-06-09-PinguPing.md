@@ -3,7 +3,7 @@ title: CTF-PinguPing
 description: Guia en texto del CTF PinguPing de The hacker Labs, incluye enumeración de puertos, tecnicas de recopilación de información, acceso y escalamiento de privilegios.
 date: 2024-06-09 22:00 +/-TTTT
 categories: [ES-CTF, The Hacker Labs]
-tags: [hacking, tehhackerlabs, ctf, es, Avanzado]     # TAG names should always be lowercase
+tags: [hacking, tehhackerlabs, ctf, es, Avanzado, ctf2024]     # TAG names should always be lowercase
 pin: true
 math: true
 mermaid: true
